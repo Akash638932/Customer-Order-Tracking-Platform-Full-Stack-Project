@@ -1,0 +1,45 @@
+body { font-family: Arial; background:#f4f4f4; text-align:center; }
+
+.box {
+ background:white;
+ width:300px;
+ margin:80px auto;
+ padding:20px;
+ box-shadow:0 0 10px gray;
+}
+
+input,button {
+ width:90%;
+ padding:8px;
+ margin:10px;
+}
+
+table {
+ width:80%;
+ margin:auto;
+ background:white;
+ border-collapse:collapse;
+}
+
+th,td {
+ border:1px solid #999;
+ padding:8px;
+}
+.dashboard {
+ display:flex;
+ justify-content:center;
+ margin:20px;
+}
+
+.card {
+ background:white;
+ padding:20px;
+ width:400px;
+ box-shadow:0 0 10px gray;
+}
+
+@media (max-width:600px){
+ table { width:100%; }
+ .card { width:90%; }
+}
+
